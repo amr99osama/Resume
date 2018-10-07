@@ -1,0 +1,519 @@
+
+.bg-light
+{
+    background-color: rgb(0,0,0) !important;
+    padding: 0px 100px;
+    margin: 0px;
+}
+.navbar-light .navbar-brand img
+{
+    width: 60px;
+    height: 60px;
+    padding: 0px;
+    margin: 0px;
+}
+
+
+
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover
+{
+    color: #ec3237 !important;
+}
+.navbar-brand span
+{
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    margin-left: 10px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+#HOME
+{
+    background-image: url(../images/cover.jpg);
+    height: 700px;
+    width: 1345px;
+    background-size: 100% 100% ;
+    position: relative;
+}
+#Home .container-fluid
+{
+    background-color: rgba(196, 45, 50, 0.68);
+    position: absolute;
+    top: 0px;
+    left:0px;
+    width:100%;
+    height: 100%;
+}
+#HOME .container-fluid h1
+{
+    color: white;
+    padding-top: 150px;
+    font-weight: bolder;
+    font-size: 50px;
+    padding-left: 80px;
+    text-shadow: 5px 10px 5px rgba(196, 45, 50, 0.68);
+}
+#HOME .container-fluid h6
+{
+    color: white;
+    padding-left: 80px;
+    font-weight: 600;
+    font-size: 25px;
+}
+
+#HOME .container-fluid button
+{
+    margin : 30px 80px;
+    background-color: transparent;
+    border: solid 2px white;
+    padding: 10px;
+    color: white;
+    text-align: center;
+    cursor: pointer;
+    transition: all 1s;
+    
+}
+
+
+#ABOUT .container h1
+{
+    font-size: 35px;
+    font-weight: bold;
+    padding-bottom: 10px;
+    color: #444444;
+    
+}
+#ABOUT .container p
+{
+    color: #777777;
+    white-space: nowrap;
+    padding-bottom: 30px;
+}
+#ABOUT .container img
+{
+    width: 400px;
+    height: 480px;
+    padding-bottom: 10px;
+    
+
+}
+#ABOUT .container h2
+{
+    font-size: 30px;
+    font-weight: bold;
+    padding-top: 150px;
+    color: #444444;
+    
+}
+#ABOUT .container h6
+{
+    font-weight: 500;
+    font-size: 20px;
+    color:#444444;
+    padding-bottom: 20px;
+}
+
+#ABOUT .container span
+{
+    color: #777777;
+}
+
+
+
+#ABOUT .container i
+{
+    border: 1px solid #777777;
+    padding: 10px;
+    margin: 8px;
+    color: #777777;
+    transition: all 1s;
+    cursor: pointer;
+    transition: all 0.2s;
+   
+
+    
+}
+
+
+i.fab.fa-lg:hover
+{
+    background-color:#ec3237;
+    border:none;
+    transform: scale(1.2,1.2);
+    color: white !important;
+}
+
+#ABOUT .progress
+
+{
+    margin: 10px;
+}
+
+#ABOUT .progress-bar
+{
+    background-color :#ec3237 !important;
+    margin: 0px;
+    padding: 0px;
+}
+#ABOUT .PRO
+{
+    padding-left: 20px;
+    font-weight: 500;
+    
+}
+
+#ABOUT .percent
+{
+    padding-left: 150px;
+}
+
+
+#ABOUT button
+{
+    background-color: #ec3237;
+    color: white;
+    border: 0px;
+    font-size: 15px;
+    padding: 10px 25px;
+    margin-bottom: 15px;
+    position: absolute;
+    top: 0px;
+    left: 500px;
+    font-weight: 400;
+    cursor: pointer;
+    transition: all 1s;
+}
+#ABOUT button:hover
+{
+    background-color: #ec3237;
+    font-weight: 500;
+    
+}
+#HOME button:hover
+{
+    background-color: white;
+    color:rgba(196, 45, 50, 0.68); 
+}
+#WORK
+{
+    background-color: lightgray;
+    padding-top: 10px;
+    transition: all 1s;
+    
+}
+#WORK h1
+{
+    padding-top: 40px;
+    padding-bottom: 10px;
+    font-weight: bolder;
+    color: #444444;
+}
+#WORK p
+{
+    line-height: 1.1;
+    color: #777777;
+    font-weight: 400;
+    padding-bottom: 60px;
+}
+
+#WORK i 
+{
+    border: 0px solid #444444;
+    color: #777777;
+    padding: 15px 12px 12px 15px;
+    background-color: lightgray;
+    width: 18%;
+    position: absolute;
+    top: 10PX;
+    left: 20px;
+        
+}
+#WORK h5
+{
+    padding-left: 20px;
+    padding-top: 60px;
+    
+    font-weight: 600;
+    color: #444444;
+}
+#WORK p
+{
+    line-height: 1.6;
+    padding-top: 20px;
+    
+}
+
+
+#WORK i.fas.fa-lg:hover
+{
+    background-color: #ec3237;
+    color: white;
+}
+#WORK h5 :hover
+{
+    color:#ec3237; 
+}
+
+
+#WORK .CHECK
+{
+ 
+    background-color: #ec3237;
+    color: white;
+    border: 0px;
+    font-size: 15px;
+    padding: 10px 25px;
+    margin-bottom: 15px;
+    position: absolute;
+    top: 0px;
+    left: 500px;
+    font-weight: 400;
+    cursor: pointer;
+    
+}
+
+#WORK .container
+{
+    background-color: lightgray;
+}
+
+#WORK .CHECK:hover
+{
+   background-color: #ec3237;
+    font-weight: 500; 
+}
+
+.stat
+{
+    background-image: url(../images/client-testimonial.jpg);
+    background-size: 100% 100%;
+    padding: 40px 0px 40px  0px;
+
+    
+}
+.stat .card
+{
+    background-color: rgba(0,0,0,0.1);
+    border: 1px solid lightgray;
+    text-align: center;
+
+}
+
+.stat .IC i 
+{
+    color:#ec3237 !important ;
+    background-color:rgba(0,0,0,0.1)!important;
+    position: absolute;!important
+    top: 100;
+    left:100px;!important;
+    
+}
+
+.stat .IC h1
+{
+    font-size: bold !important;
+    color: white !important;
+    padding: 20px !important;
+}
+
+.stat .IC h5
+{
+    font-size: bold !important;
+    color: white !important;
+}
+
+
+#PORTOFOLIO 
+{
+    background-color: lightgray;
+}
+
+#PORTOFOLIO h1
+{
+    padding-top: 40px;
+    padding-bottom: 10px;
+    font-weight: bolder;
+    color: #444444;
+    font-size: 40px;
+}
+
+#PORTOFOLIO p
+{
+    color: #777777;
+    line-height: 1.2;
+    padding-bottom: 40px;
+    position: relative;
+}
+
+#PORTOFOLIO li
+{
+    display: inline-block;
+    text-decoration: none;
+    padding: 15px;
+    border: 2px solid #dddddd;;
+    
+}
+#PORTOFOLIO li a
+{
+    color: #777777;
+    font-weight: 700;
+    font-size: 18px;
+    text-decoration: none;
+    
+}
+
+#PORTOFOLIO li:hover
+{
+    border: 2px solid #ec3237;
+    color: #ec3237;
+}
+#PORTOFOLIO li a:hover
+{
+    color: #ec3237;
+}
+
+#PORTOFOLIO .card-body h4
+{
+    font-weight: 600;
+    padding-bottom: 15px;
+    color: #444444;
+}
+
+#PORTOFOLIO .card-body h6
+{
+    color: #777777;
+}
+
+
+#PORTOFOLIO .card-body i
+{
+    border-radius: 50%;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    position: absolute;
+    top: 170px;
+    left: 145px;
+    cursor: pointer;
+}
+
+#PORTOFOLIO .card-body i:hover
+{
+    background-color: #ec3237;
+    color: white;
+}
+
+#PORTOFOLIO .card
+{
+    margin-bottom: 40px;
+}
+
+#PORTOFOLIO button
+{
+     background-color: #ec3237;
+    color: white;
+    border: 0px;
+    font-size: 15px;
+    padding: 10px 25px;
+    margin-bottom: 15px;
+    position: absolute;
+    top: 0px;
+    left: 500px;
+    font-weight: 400;
+    cursor: pointer;
+    transition: all 1s;
+}
+    
+#PORTOFOLIO button:hover
+{
+    background-color: #ec3237;
+    font-weight: 500;
+    
+}
+#PORTOFOLIO.Butt
+{
+    background-color: lightgray;
+}
+
+
+.xxx
+{
+    background-image: url(../project-counter.jpg);
+    background-size: 100% 100%;
+    padding: 100px;
+    margin: 0;
+}
+
+.xxx h4
+{
+    font-size: 25px;
+    font-family: sans-serif;
+    font-weight: 700;
+    color: white !important;
+    text-align: center;
+    
+}
+
+.xxx h4:hover
+{
+    color: #ec3237;
+    
+    
+}
+
+#HIREME
+{
+    padding: 20px;
+}
+
+#HIREME h2
+{
+    color: #444444;
+    font-weight: bolder;
+    padding: 20px 0px;
+    font-size: 40px;
+}
+
+#HIREME p
+{
+    line-height: 1.4;
+    color: #777777;
+}
+
+#HIREME h4
+{
+    padding: 20px 0px;
+    font-weight: 600;
+    font-size: 22px;
+}
+
+
+#HIREME i 
+{
+    color:#777777;
+    padding-left: 20px;
+    padding-bottom: 10px;
+    margin: 15px;
+}
+
+#HIREME i.fab.fa-lg
+{
+    border: 1px solid #777777;
+    padding: 10px;
+    margin: 8px;
+    color: #777777;
+    transition: all 1s;
+    cursor: pointer;
+    transition: all 0.2s;
+   
+}
+#HIREME i.fab.fa-lg:hover
+{
+    background-color:#ec3237;
+    border:none;
+    transform: scale(1.2,1.2);
+    color: white;
+}
+
